@@ -6,7 +6,7 @@ export const userSlice = createSlice({
     name: 'user',
     initialState: userInitialState,
     reducers: {
-        setUser2
+        setUser2,
     },
     extraReducers: (builder => {
         builder.addCase(setUser, (state, action) => state = action.payload);

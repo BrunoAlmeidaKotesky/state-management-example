@@ -1,6 +1,4 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit'
-import { INavItem } from '../models/INavItem';
-import { IUser } from '../models/IUser';
 import userSlice from './slices/userSlice';
 import navigationSlice from './slices/navigationSlice';
 
